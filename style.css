@@ -30,7 +30,3 @@ textarea {
     border: none;
 }
 
-button:hover,
-.calculator-grid button:nth-child(n+18):hover {
-    transition: 0.2s;
-}
