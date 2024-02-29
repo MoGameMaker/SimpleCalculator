@@ -9,14 +9,13 @@ body {
     justify-content: center; 
 }
 
-.calculator-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    grid-gap: 1px;
+
+
+.calculator-grid button {
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
 } 
-
-
 
 textarea {
     grid-column: span 4;
