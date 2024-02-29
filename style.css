@@ -3,6 +3,11 @@ body {
     padding: 20px;
 }
 
+.grid-container {
+    display: grid;
+    align-items: center;
+    justify-content: center; 
+}
 
 .calculator-grid button {
     font-size: 25px;
