@@ -16,11 +16,7 @@ body {
     grid-gap: 1px;
 } 
 
-.calculator-grid button {
-    font-size: 25px;
-    border: none;
-    cursor: pointer;
-} 
+
 
 textarea {
     grid-column: span 4;
