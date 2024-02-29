@@ -3,11 +3,6 @@ body {
     padding: 20px;
 }
 
-.grid-container {
-    display: grid;
-    align-items: center;
-    justify-content: center; 
-}
 
 
 
