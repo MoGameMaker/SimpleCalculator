@@ -66,3 +66,10 @@ textarea {
 .other{
     margin: 9px;
 }
+
+button:hover,
+.calculator-grid button:nth-child(n+18):hover {
+    background-color: #440b15;
+    color: white;
+    transition: 0.2s;
+}
