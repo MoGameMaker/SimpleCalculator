@@ -69,7 +69,7 @@ textarea {
 
 button:hover,
 .calculator-grid button:nth-child(n+18):hover {
-    background-color: #440b15;
+    background-color: goldenrod;
     color: white;
     transition: 0.2s;
 }
