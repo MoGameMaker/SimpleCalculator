@@ -80,20 +80,24 @@ button:hover,
 
 .Golden:hover{
     background-color: goldenrod;
+    color: saddlebrown;
     transition: 2.4s;
 }
 
 .Lawn:hover{
     background-color: lawngreen;
+    color: saddlebrown;
     transition: 2.4s;
 }
 
 .Chocolate:hover{
     background-color: chocolate;
+    color: saddlebrown;
     transition: 2.4s;
 }
 
 .Aquamarine:hover{
     background-color: aquamarine;
+    color: saddlebrown;
     transition: 2.4s;
 }
