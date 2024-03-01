@@ -77,3 +77,23 @@ button:hover,
 .calculator-grid button:nth-child(n+18) {
     background-color: tomato; 
 }
+
+.Saddle:hover{
+    background-color: saddlebrown;
+    transition: 2.4s;
+}
+
+.Lawn:hover{
+    background-color: lawngreen;
+    transition: 2.4s;
+}
+
+.Chocolate:hover{
+    background-color: chocolate;
+    transition: 2.4s;
+}
+
+.Aquamarine:hover{
+    background-color: aquamarine;
+    transition: 2.4s;
+}
