@@ -1,5 +1,5 @@
 body {
-    background-color: lawngreen;
+    background-color: saddlebrown;
 }
 
 .grid-container {
@@ -12,7 +12,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    grid-gap: 1px;
+    grid-gap: 3px;
     background-color: #999;
 } 
 
@@ -61,44 +61,16 @@ textarea {
 .Aquamarine{
     margin: 9px;
     color: aquamarine;
-    background-color: #999;
 }
 
 .other{
     margin: 9px;
 }
 
-button:hover,
-.calculator-grid button:nth-child(n+18):hover {
-    background-color: lawngreen;
-    color: white;
-    transition: 0.6s;
+.v{
+    padding-left: 1410px;
 }
 
-.calculator-grid button:nth-child(n+18) {
-    background-color: tomato; 
-}
-
-.Saddle:hover{
-    background-color: saddlebrown;
-    color: lawngreen;
-    transition: 2.4s;
-}
-
-.Golden:hover{
-    background-color: goldenrod;
-    color: lawngreen;
-    transition: 2.4s;
-}
-
-.Chocolate:hover{
-    background-color: chocolate;
-    color: lawngreen;
-    transition: 2.4s;
-}
-
-.Aquamarine:hover{
-    background-color: aquamarine;
-    color: #999 ;
-    transition: 2.4s;
+.vpage{
+    padding-left: 690px;
 }

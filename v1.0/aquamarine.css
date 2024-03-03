@@ -1,0 +1,72 @@
+body {
+    background-color: aquamarine;
+}
+
+.grid-container {
+    display: grid;
+    align-items: center;
+    justify-content: center; 
+}
+
+.calculator-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 3px;
+    background-color: #999;
+} 
+
+.calculator-grid button {
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+} 
+
+textarea {
+    grid-column: span 4;
+    font-size: 25px;
+    text-align: end;
+    padding: 15px;
+    border: none;
+}
+
+.Nav_Bar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 3px;
+    }
+
+.Chocolate{
+        margin: 9px;
+        color: chocolate;
+    }
+
+.Golden{
+    margin: 9px;
+    color: goldenrod;
+}
+
+.Lawn{
+    margin: 9px;
+    color: lawngreen;
+    background-color: #999;
+}
+
+.Saddle{
+    margin: 9px;
+    color: saddlebrown;
+}
+
+.other{
+    margin: 9px;
+}
+
+.v{
+    padding-left: 1410px;
+}
+
+.vpage{
+    padding-left: 690px;
+}

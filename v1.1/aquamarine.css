@@ -12,7 +12,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    grid-gap: 1px;
+    grid-gap: 3px;
     background-color: #999;
 } 
 
@@ -96,4 +96,12 @@ button:hover,
     background-color: goldenrod;
     color: aquamarine;
     transition: 2.4s;
+}
+
+.v{
+    padding-left: 1440px;
+}
+
+.vpage{
+    padding-left: 690px;
 }

@@ -1,5 +1,5 @@
 body {
-    background-color: saddlebrown;
+    background-color: chocolate;
 }
 
 .grid-container {
@@ -12,7 +12,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    grid-gap: 1px;
+    grid-gap: 3px;
     background-color: #999;
 } 
 
@@ -78,26 +78,34 @@ button:hover,
     background-color: tomato; 
 }
 
-.Golden:hover{
-    background-color: goldenrod;
-    color: saddlebrown;
+.Saddle:hover{
+    background-color: saddlebrown;
+    color: chocolate;
     transition: 2.4s;
 }
 
 .Lawn:hover{
     background-color: lawngreen;
-    color: saddlebrown;
+    color: chocolate;
     transition: 2.4s;
 }
 
-.Chocolate:hover{
-    background-color: chocolate;
-    color: saddlebrown;
+.Golden:hover{
+    background-color: goldenrod;
+    color: chocolate;
     transition: 2.4s;
 }
 
 .Aquamarine:hover{
     background-color: aquamarine;
-    color: saddlebrown;
+    color: chocolate;
     transition: 2.4s;
+}
+
+.v{
+    padding-left: 1440px;
+}
+
+.vpage{
+    padding-left: 690px;
 }
