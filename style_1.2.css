@@ -64,6 +64,11 @@ textarea {
     color: aquamarine;
 }
 
+.Bluev{
+    margin: 9px;
+    color: blueviolet;
+}
+
 .other{
     margin: 9px;
 }
@@ -109,6 +114,13 @@ button:hover,
 
 .Aquamarine:hover{
     background-color: black;
+    color: aquamarine;
+    transition: 2.4s;
+    text-decoration: underline;
+}
+
+.Bluev:hover{
+    background-color: blueviolet;
     color: aquamarine;
     transition: 2.4s;
     text-decoration: underline;
