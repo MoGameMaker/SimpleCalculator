@@ -1,5 +1,5 @@
 body {
-    background-color: lawngreen;
+    background-color: aquamarine;
 }
 
 .grid-container {
@@ -38,7 +38,7 @@ textarea {
     padding-left: 3px;
     }
 
-    .Chocolate{
+.Chocolate{
         margin: 9px;
         color: chocolate;
     }
@@ -51,6 +51,7 @@ textarea {
 .Lawn{
     margin: 9px;
     color: lawngreen;
+    background-color: #999;
 }
 
 .Saddle{
@@ -61,7 +62,6 @@ textarea {
 .Aquamarine{
     margin: 9px;
     color: aquamarine;
-    background-color: #999;
 }
 
 .other{

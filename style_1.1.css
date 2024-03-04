@@ -1,5 +1,5 @@
 body {
-    background-color: saddlebrown;
+    background-color: aquamarine;
 }
 
 .grid-container {
@@ -38,7 +38,7 @@ textarea {
     padding-left: 3px;
     }
 
-    .Chocolate{
+.Chocolate{
         margin: 9px;
         color: chocolate;
     }
@@ -51,6 +51,7 @@ textarea {
 .Lawn{
     margin: 9px;
     color: lawngreen;
+    background-color: #999;
 }
 
 .Saddle{
@@ -67,8 +68,54 @@ textarea {
     margin: 9px;
 }
 
+button:hover,
+.calculator-grid button:nth-child(n+18):hover {
+    background-color: aquamarine;
+    color: white;
+    transition: 0.6s;
+}
+
+.calculator-grid button:nth-child(n+18) {
+    background-color: tomato; 
+}
+
+.Saddle:hover{
+    background-color: saddlebrown;
+    color: aquamarine;
+    transition: 2.4s;
+    text-decoration: underline;
+}
+
+.Lawn:hover{
+    background-color: lawngreen;
+    color: #999;
+    transition: 2.4s;
+    text-decoration: underline;
+}
+
+.Chocolate:hover{
+    background-color: chocolate;
+    color: aquamarine;
+    transition: 2.4s;
+    text-decoration: underline;
+}
+
+.Golden:hover{
+    background-color: goldenrod;
+    color: aquamarine;
+    transition: 2.4s;
+    text-decoration: underline;
+}
+
+.Aquamarine:hover{
+    background-color: black;
+    color: aquamarine;
+    transition: 2.4s;
+    text-decoration: underline;
+}
+
 .v{
-    padding-left: 1410px;
+    padding-left: 1440px;
 }
 
 .vpage{
