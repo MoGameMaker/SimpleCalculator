@@ -1,0 +1,260 @@
+body {
+    background-color: aquamarine;
+}
+
+
+.grid-container {
+    display: grid;
+    align-items: center;
+    justify-content: center; 
+}
+
+.calculator-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 3px;
+    background-color: #999;
+} 
+
+.calculator-grid button {
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+} 
+
+.history-container {
+    width: 50%;
+    border-left: 5px solid #999;
+    padding-left: 10px;
+}
+
+.history-bar {
+    font-size: 16px;
+    margin-top: -699px;
+}
+
+.history-container {
+    margin-top: 50px;
+}
+
+
+textarea {
+    grid-column: span 4;
+    font-size: 25px;
+    text-align: end;
+    padding: 15px;
+    border: none;
+}
+
+.Nav_Bar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 3px;
+    }
+
+.Chocolate{
+    margin: 9px;
+    color: chocolate;
+    }
+
+.Golden{
+    margin: 9px;
+    color: goldenrod;
+}
+
+.Lawn{
+    margin: 9px;
+    color: lawngreen;
+    background-color: #999;
+}
+
+.Saddle{
+    margin: 9px;
+    color: saddlebrown;
+}
+
+.Aquamarine{
+    margin: 9px;
+    color: aquamarine;
+}
+
+.Bluev{
+    margin: 9px;
+    color: blueviolet;
+}
+
+.other{
+    margin: 9px;
+}
+
+button:hover,
+.calculator-grid button:nth-child(n+18):hover {
+    background-color: aquamarine;
+    color: white;
+    transition: 0.6s;
+}
+
+.calculator-grid button:nth-child(n+18) {
+    background-color: tomato; 
+}
+
+.Saddle:hover{
+    background-color: saddlebrown;
+    color: aquamarine;
+    transition: 2.4s;
+    text-decoration: underline;
+}
+
+.Lawn:hover{
+    background-color: #999;
+    color: aquamarine;
+    transition: 2.4s;
+    text-decoration: underline;
+}
+
+.Chocolate:hover{
+    background-color: chocolate;
+    color: aquamarine;
+    transition: 2.4s;
+    text-decoration: underline;
+}
+
+.Golden:hover{
+    background-color: goldenrod;
+    color: aquamarine;
+    transition: 2.4s;
+    text-decoration: underline;
+}
+
+.Aquamarine:hover{
+    background-color: black;
+    color: aquamarine;
+    transition: 2.4s;
+    text-decoration: underline;
+}
+
+.Bluev:hover{
+    background-color: blueviolet;
+    color: aquamarine;
+    transition: 2.4s;
+    text-decoration: underline;
+}
+
+.v{
+    padding-left: 1420px;
+}
+
+.vpage{
+    padding-left: 690px;
+}
+
+@media only screen and (width: 1024px) and (height: 1366px){
+    .Nav_Bar ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-left: 40px;
+        font-size: x-large;
+        }
+
+        .v{
+            padding-left: 970px;
+            font-size: x-large;
+        }
+        
+        .vpage{
+            padding-left: 450px;
+            font-size: x-large;
+        }
+        .grid-container {
+            display: grid;
+            align-items: center;
+            justify-content: center; 
+        }
+        
+        .calculator-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(6, 1fr);
+            grid-gap: 3px;
+            background-color: #999;
+        } 
+        
+        .calculator-grid button {
+            font-size: 25px;
+            border: none;
+            cursor: pointer;
+        } 
+        
+        textarea {
+            grid-column: span 4;
+            font-size: 50px;
+            text-align: end;
+            padding: 15px;
+            border: none;
+        }
+        
+    }
+
+@media only screen and (max-width: 412px){
+    .Nav_Bar{
+        height: 100px;
+    }
+
+        .Nav_Bar ul{
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            font-size: xx-small;
+            width: 67px;
+            height: 203px;
+            }
+            .v{
+                padding-left: 305px;
+                font-size: xx-small;
+                margin-top: -213px;
+            }
+            
+            .vpage{
+                padding-left: 120px;
+                font-size: xx-small;
+                margin-top: 170px;
+            }
+            .grid-container {
+                display: grid;
+                align-items: center;
+                justify-content: center; 
+                margin-top: -84px;
+                height: 33px;
+                width: 334px;
+            }
+            
+            .calculator-grid {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-rows: repeat(1, 1fr);
+                grid-gap: 3px;
+                background-color: #999;
+                width: 105px;
+                margin-left: -50px;
+            } 
+            
+            .calculator-grid button {
+                font-size: 10px;
+                border: none;
+                cursor: pointer;
+            } 
+            
+            textarea {
+                grid-column: span 4;
+                font-size: 10px;
+                text-align: end;
+                padding: 25px;
+                border: none;
+            }
+            
+        }

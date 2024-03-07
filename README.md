@@ -24,3 +24,8 @@ Added 1 More Colors Totaling To 6 Different Colors Possible
 5/3/2024 V1.2.1
 Now Supporting Ipad Pro Vertical View And Google Pixel 7 Vertical View
 From Now On Updates Will Also Be Shown In README
+
+7/3/2024 V1.3
+Added History Bar With Clear History* Button And Delete History Button
+*Clear History Clears History Until Next Refresh Delete Deletes Permenantely
+All Non Computer Devices Are Now Broken Including Ipad Pro Vertical View And Google Pixel 7 Vertical View
